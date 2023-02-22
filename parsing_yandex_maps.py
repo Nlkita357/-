@@ -223,7 +223,7 @@ def pars_sites_photo_and_otzivi(url):
         reviews_text_list.append([reviws[i].text, date[i].text, len(rating[i])])
 
     return reviews_text_list
-
+1
 save_json_data()
 create_webdriver()
 save_urls_list = read_pars_urls()

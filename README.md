@@ -1,2 +1,4 @@
-# Парсинг данных о ресторанах заданного региона с яндекс карт.
-Скрипт подгружал карточки ресторанов, скролив сайт вниз, брал с них URL, затем переходил по этим URL и парсил с них: адрес, все фото, номер телефона и др. контакты, график работы и все отзывы. Для парсинга применил Selenium.
+# Parsing data about restaurants in a given region from yandex maps.
+The script loads restaurant cards, scrolls down the site, takes URLs from them, then goes to these URLs and parses from them: address, all photos, phone number and other contacts, hours of operation and all reviews
+Key Dependencies:
+Selenium
